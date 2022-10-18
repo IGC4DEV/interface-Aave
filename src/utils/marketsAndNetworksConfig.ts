@@ -19,7 +19,7 @@ export type Pool = {
 };
 
 export const STAGING_ENV = process.env.NEXT_PUBLIC_ENV === 'staging';
-export const PROD_ENV = !process.env.NEXT_PUBLIC_ENV || process.env.NEXT_PUBLIC_ENV === 'prod';
+export const PROD_ENV = !process.env.NEXT_PUBLIC_ENV || process.env.NEXT_PUBLIC_ENV === 'staging';
 export const ENABLE_TESTNET =
   PROD_ENV && global?.window?.localStorage.getItem('testnetsEnabled') === 'true';
 
