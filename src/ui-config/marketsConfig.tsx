@@ -157,6 +157,7 @@ export const marketsData: {
       UI_POOL_DATA_PROVIDER: '0xcCb7a1B6B5D72c4AA633B114537cD20612fDccbB',
       // UI_INCENTIVE_DATA_PROVIDER: '<address here>',
       PERMISSION_MANAGER: '0xb5d302888759648734CADBCa7cC39Ef2B3DFFb0e',
+      FAUCET: '0x681860075529352da2C94082Eb66c59dF958e89C',
     },
   },
   // [CustomMarket.proto_mumbai]: {
