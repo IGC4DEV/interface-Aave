@@ -15,7 +15,7 @@ import {
   useTheme,
 } from '@mui/material';
 import dayjs from 'dayjs';
-import AaveMetaImage from 'public/aaveMetaLogo-min.jpg';
+import AaveMetaImage from 'public/favicon.ico';
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';

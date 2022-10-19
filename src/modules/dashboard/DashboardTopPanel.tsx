@@ -98,7 +98,7 @@ export const DashboardTopPanel = () => {
               variant={valueTypographyVariant}
               visibleDecimals={2}
               compact
-              symbolsColor="#A5A8B6"
+              symbolsColor="#404040"
               symbolsVariant={noDataTypographyVariant}
             />
           ) : (
@@ -122,7 +122,7 @@ export const DashboardTopPanel = () => {
               variant={valueTypographyVariant}
               visibleDecimals={2}
               percent
-              symbolsColor="#A5A8B6"
+              symbolsColor="#404040"
               symbolsVariant={noDataTypographyVariant}
             />
           ) : (
@@ -186,7 +186,7 @@ export const DashboardTopPanel = () => {
                   visibleDecimals={2}
                   compact
                   symbol="USD"
-                  symbolsColor="#A5A8B6"
+                  symbolsColor="#404040"
                   symbolsVariant={noDataTypographyVariant}
                   data-cy={'Claim_Value'}
                 />

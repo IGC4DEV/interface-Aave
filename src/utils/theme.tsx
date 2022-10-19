@@ -172,13 +172,13 @@ export const getDesignTokens = (mode: 'light' | 'dark') => {
         primary: getColor('#303549', '#F1F1F3'),
         secondary: getColor('#62677B', '#A5A8B6'),
         disabled: getColor('#D2D4DC', '#62677B'),
-        muted: getColor('#A5A8B6', '#8E92A3'),
+        muted: getColor('#f2f2f2', '#8E92A3'), // Icon NET APY
       },
       background: {
         default: getColor('#F1F1F3', '#1B2030'),
         paper: getColor('#FFFFFF', '#292E41'),
         surface: getColor('#F7F7F9', '#383D51'),
-        header: getColor('#2B2D3C', '#1B2030'),
+        header: getColor('#8497b0', '#1B2030'),
         disabled: getColor('#EAEBEF', '#EBEBEF14'),
       },
       divider: getColor('#EAEBEF', '#EBEBEF14'),
@@ -414,7 +414,7 @@ export function getThemedComponents(theme: Theme) {
               color: theme.palette.common.white,
               border: '1px solid',
               borderColor: '#EBEBED1F',
-              backgroundColor: '#383D51',
+              backgroundColor: '#0070c0',
               '&:hover, &.Mui-focusVisible': {
                 backgroundColor: theme.palette.background.header,
               },

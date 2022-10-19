@@ -22,14 +22,14 @@ export const FaucetTopPanel = () => {
             withMarketSwitcher={true}
           />
           <Box sx={{ width: md ? (xsm ? '320px' : '540px') : '860px' }}>
-            <Typography variant="description" color="#A5A8B6">
+            <Typography variant="description" color="#text.secondary">
               <Trans>
                 With testnet Faucet you can get free assets to test the Aave Protocol. Make sure to
                 switch your wallet provider to the appropriate testnet network, select desired
                 asset, and click ‘Faucet’ to get tokens transferred to your wallet. The assets on a
                 testnet are not “real,” meaning they have no monetary value.{' '}
                 <Link
-                  color="#A5A8B6"
+                  color="text.secondary"
                   href="https://docs.aave.com/developers/guides/testing-guide"
                   sx={{ textDecoration: 'underline' }}
                 >

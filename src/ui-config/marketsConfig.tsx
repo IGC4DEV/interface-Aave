@@ -137,7 +137,7 @@ export const marketsData: {
     },
   },
   [CustomMarket.proto_goerli]: {
-    marketTitle: 'Ethereum Görli',
+    marketTitle: 'IMMO Görli',
     chainId: ChainId.goerli,
     enabledFeatures: {
       // liquiditySwap: true,

@@ -37,7 +37,7 @@ export const AssetsListItem = ({ ...reserve }: ComputedReserveData) => {
               p: { xs: '0', xsm: '3.625px 0px' },
             }}
           >
-            <Typography variant="subheader2" color="text.muted" noWrap>
+            <Typography variant="subheader2" color="text.secondary" noWrap>
               {reserve.symbol}
             </Typography>
           </Box>

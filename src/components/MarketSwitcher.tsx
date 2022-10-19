@@ -152,7 +152,7 @@ export const MarketSwitcher = () => {
                   }}
                 >
                   {getMarketHelpData(market.marketTitle).name} {market.isFork ? 'Fork' : ''}
-                  {upToLG && ' Market'}
+                  {/*{upToLG && ' Market'} */}
                 </Typography>
                 {market.v3 && (
                   <Box
