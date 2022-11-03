@@ -45,7 +45,9 @@ export const SYMBOL_MAP: { [key: string]: string } = {
  * With the next version of uipooldataprovider https://github.com/aave/aave-v3-periphery/pull/89 this list can be greatly reduced/removed.
  */
 export const SYMBOL_NAME_MAP: { [key: string]: string } = {
+  EURL: 'Lugh Euro'
   CAST: 'Casino Token',
+  IMMO: 'IMMO Token',
   AVAX: 'Avalanche',
   ETH: 'Ethereum',
   EUROS: 'STASIS EURO',
