@@ -98,7 +98,7 @@ enum SelectedMarketVersion {
 export const MarketSwitcher = () => {
   const { currentMarket, setCurrentMarket } = useProtocolDataContext();
   const [selectedMarketVersion, setSelectedMarketVersion] = useState<SelectedMarketVersion>(
-    SelectedMarketVersion.V3
+    SelectedMarketVersion.V2
   );
   const theme = useTheme();
   const upToLG = useMediaQuery(theme.breakpoints.up('lg'));
@@ -224,8 +224,8 @@ export const MarketSwitcher = () => {
             }}
           >
             <StyledToggleButton
-              value={SelectedMarketVersion.V3}
-              data-cy={`markets_switch_button_v3`}
+              value={SelectedMarketVersion.V2}
+              data-cy={`markets_switch_button_v2`}
               sx={{
                 backgroundColor: theme.palette.mode === 'dark' ? '#EAEBEF' : '#383D51',
                 '&.Mui-selected, &.Mui-selected:hover': {
